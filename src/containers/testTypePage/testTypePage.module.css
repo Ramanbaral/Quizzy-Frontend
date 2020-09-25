@@ -1,0 +1,42 @@
+.nodefaultstyle {
+    text-decoration: none;
+    color: black;
+}
+
+.nodefaultstyle:hover,.nodefaultstyle:active{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.89);
+}
+
+.title{
+    font-family: fantasy;
+    font-size: 2.2rem;
+    margin: 3%;
+}
+
+.container{
+    margin: 5%;
+    text-align: center;
+}
+
+.testtype{
+    margin: 2% auto;
+    width: 25%;
+    border-radius: 8px;
+    background-color: lightskyblue;
+    color: white;
+    font-family: emoji;
+    padding: 0.1%;
+}
+
+@media(max-width:500px){
+    .testtype{
+        width: 64%;
+    }
+}
+
+@media(max-width:850px) and (min-width:501px){
+    .testtype{
+        width: 60%;
+    }
+}

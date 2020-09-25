@@ -1,0 +1,15 @@
+.box{
+    width: 20%;
+    height: 2rem;
+    margin: 10px 6px;
+    border-radius: 6px;
+    border-bottom: 2px solid lightskyblue;
+    background-color: whitesmoke;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,16 @@
+.dropdown{
+    background-color: skyblue;
+    border: none;
+    position: sticky;
+    top:0.5%;
+    
+}
+
+.dropdown:focus,.dropdown:active{
+    border: none;
+    outline: none;    
+}
+
+.dropdown-item{
+    font-family: fantasy;
+}
