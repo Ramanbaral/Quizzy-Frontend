@@ -1,0 +1,13 @@
+.bar{
+    background-color: yellow;
+    width: 16rem;
+    padding: 0.2rem;
+    margin: 0.1rem;
+}
+
+.bar p{
+    margin: 0;
+    font-family: emoji;
+    font-weight: 600;;
+    margin-left: 3rem;
+}

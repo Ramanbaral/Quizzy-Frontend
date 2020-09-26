@@ -1,0 +1,44 @@
+.questionBox{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2rem;
+}
+
+.question{
+    width: 100%;
+    padding: 10px;
+
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+
+    background-color: lightgray;
+    text-align: center;
+    border-bottom: 1px solid lightblue;
+
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.option{
+    min-width: 40%;
+    margin:1.1rem;
+    background-color: white;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.wrong{
+    background-color: rgba(216, 23, 23, 0.726);
+    color: white;
+}
+
+.correct{
+    background-color: lightgreen;
+    color: white;
+}

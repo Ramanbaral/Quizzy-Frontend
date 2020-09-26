@@ -2,7 +2,6 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import './jumbotron.css'
-import chess from "../../assets/chess.jpg"
 
 const jumbotron = (props) => {
     return (

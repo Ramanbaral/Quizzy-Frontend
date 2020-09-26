@@ -1,0 +1,29 @@
+body{
+    overflow: hidden;
+    font-family:emoji;
+}
+
+.performanceStats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.05rem;
+    width: 23.5rem;
+    margin: auto;
+}
+
+.bars{
+    position: relative;
+    top: -6.5rem;
+    left: 5rem;
+    margin: auto;
+    z-index: -1;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.5rem;
+}

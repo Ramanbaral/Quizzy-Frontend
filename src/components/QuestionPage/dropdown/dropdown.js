@@ -7,7 +7,7 @@ const Dropdown = () => {
     return (
         <React.Fragment>
         <button class="dropdown dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Marked Ques..
+        Marked Qs..
       </button>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
         <a class="dropdown-item" href="#">23</a>

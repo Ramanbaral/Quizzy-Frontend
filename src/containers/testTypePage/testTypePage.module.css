@@ -27,6 +27,11 @@
     color: white;
     font-family: emoji;
     padding: 0.1%;
+    transition: transform 0.3s;
+}
+
+.testtype:hover{
+    transform: scale(1.1);
 }
 
 @media(max-width:500px){

@@ -1,0 +1,18 @@
+.statbox{
+    background-color: rgba(0, 0, 0, 0.199);
+}
+
+.num{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: fantasy;
+    text-align: center;
+    margin: 0.1%;
+}
+
+.txt{
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+}
