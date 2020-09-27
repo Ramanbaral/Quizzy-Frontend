@@ -21,7 +21,16 @@
     width: 100%;
     height: 75%;
     overflow-y: auto;
-    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+}
+
+.closebtn{
+    border: none;
+    background-color: lightskyblue;
+    width: 4rem;
+    border-radius: 5px;
+    float: right;
+    margin: 0 2rem;
 }
 
 .open{

@@ -1,5 +1,5 @@
 import React from "react"
-
+import "./questionPage.css"
 
 // components
 import InfromativeHeader from "../../components/QuestionPage/InformativeHeader/informativeHeader"

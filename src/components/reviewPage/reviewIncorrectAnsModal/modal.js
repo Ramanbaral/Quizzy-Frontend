@@ -29,7 +29,7 @@ const Modal = () => {
             <ReviewAnswer />
             <ReviewAnswer />
             <ReviewAnswer />
-            <button onClick={closeModal}>close</button>
+            <button className={classes.closebtn} onClick={closeModal}>close</button>
         </div>
 
         </React.Fragment>

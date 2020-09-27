@@ -1,4 +1,4 @@
-import React from "react"
+import React , {useEffect} from "react"
 import {Link} from "react-router-dom"
 
 import user from "../../assets/default.jpg"
@@ -14,14 +14,16 @@ import Modal from "../../components/reviewPage/reviewIncorrectAnsModal/modal"
 
 
 const ReviewPage = () => {
-
+    useEffect( () => {
+        document.body.style.overflow="hidden";
+    })
 
     return(
-        <React.Fragment>
+        <div className={classes.main}>
 
         <Header />
 
-        <div className="container">
+        <div className="container" style={{overflow:"hidden"}}>
 
         <div style={{margin:'1.5% 0',marginLeft:'31%',height:'7rem'}}>
 
@@ -52,9 +54,8 @@ const ReviewPage = () => {
         </div>
         </div>
 
-        
-        
-        </React.Fragment>
+
+        </div>
     )
    
 }
