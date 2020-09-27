@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const card = (props) => {
     return (
-        <div className="card" style={{ width: "18rem",margin:'20px 6%' }}>
+        <div className={'card '+ classes.customCard} style={{ width: "18rem",margin:'20px 6%',transition:'transform 0.3s' }}>
             <img src={props.image} class="card-img-top" alt="Cat. image" style={{height:'55%'}}/>
             <div className="card-body" style={{backgroundColor:"whitesmoke"}}>
                 <h5 className="card-title" style={titleStyle}>{props.title}</h5>

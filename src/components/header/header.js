@@ -1,13 +1,12 @@
 import React from "react"
 import classes from "./header.module.css"
+import logo from "../../assets/logo.png"
 
 const header = () => {
     return(
         <div className={classes.header}>
 
-            <div className={classes.logo}>
-                <span>LOGO</span>
-            </div>
+            <img src={logo} alt="LOGO" className={classes.logo} draggable='false' />
 
             <div className={classes.title}>
                 <h3 id={classes.titletext}>Quizzy</h3>

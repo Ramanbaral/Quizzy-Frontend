@@ -9,22 +9,19 @@
 }
 
 .logo{
-    min-width: 20%;
-    background-color: lightyellow;
+    width: 16%;
+    margin-left: 0.4rem;
 }
 
 .title{
     min-width: 35%;
-    /* background-color: lightsalmon; */
-
-
 }
 
 #titletext{
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 44px;
+    font-size: 3.3rem;
     font-family: emoji;
     color: whitesmoke;
 }

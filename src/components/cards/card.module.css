@@ -1,3 +1,7 @@
 .card-spacing{
     margin: 20px;
 }
+
+.customCard:hover{
+    transform: scale(1.05);
+}

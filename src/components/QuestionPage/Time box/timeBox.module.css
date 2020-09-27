@@ -6,15 +6,28 @@
     height: 2.6rem;
     padding: 1.6rem 0;
     margin: 10px auto;
-    border: 2px solid lightgreen;
+    border: 1px solid deepskyblue;
     border-radius: 6px;
-    background-color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
     font-family: fantasy;
-    color: rgb(48, 46, 46);
+    color: white;
     position: sticky;
     top:0.6%;
+    cursor: pointer;
 }
 
 .time{
     font-size: 2.5rem;
+}
+
+.sec{
+    width: 3rem;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.show{
+    visibility: visible;
 }

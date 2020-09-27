@@ -1,0 +1,13 @@
+.win{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    z-index: 1000;
+}
+
+.btnStyle{
+    display:flex;
+    justify-content:center;
+    margin-top:48vh;
+}
