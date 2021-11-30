@@ -10,7 +10,7 @@ const jumbotron = (props) => {
         <div className="container">
             <h1 classNameName="display-4" style={{color:"skyblue"}}>Quizzy</h1>
             <p className="lead" style={{color:"deepskyblue",fontWeight:"400"}}>
-                Place where genius come to sharphen their knowledge.
+                Place where genius come to sharphen their mind.
             </p>
         </div>
     </div>
